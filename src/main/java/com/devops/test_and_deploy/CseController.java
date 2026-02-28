@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CseController {
     @GetMapping("/cseadd")
     public String add(@RequestParam int a, @RequestParam int b) {
-        return "This is 23MH1A05N0! Sum of " + String.valueOf(a) + " " + String.valueOf(b)+ " : " + String.valueOf(a + b);
+        return "This is 23MH1A05N0! Sum of " + String.valueOf(a) + " and " + String.valueOf(b)+ "is: " + String.valueOf(a + b);
     }
     
 }
