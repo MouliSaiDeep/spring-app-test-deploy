@@ -14,8 +14,8 @@ public class CseControllerTest {
 
     @Test
     public void  testAdd() {
-        int result = cseController.add(2, 3);
-        assertEquals(5, result);
+        String result = cseController.add(2, 3);
+        assertEquals("This is 23MH1A05N0! Sum of 2 3 : 5", result);
     }
 
 }
