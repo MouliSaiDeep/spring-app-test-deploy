@@ -12,10 +12,10 @@ public class CseControllerTest {
     @Autowired
     CseController cseController;
 
-    // @Test
-    // public void  testAdd() {
-    //     int result = cseController.add(2, 3);
-    //     assertEquals(5, result);
-    // }
+    @Test
+    public void  testAdd() {
+        int result = cseController.add(2, 3);
+        assertEquals(5, result);
+    }
 
 }
